@@ -91,7 +91,7 @@ def get_location(request):
 	path = default_storage.save('tmp/'+myfile.name, ContentFile(data.read()))
 	tmp_file = os.path.join(settings.MEDIA_ROOT, path)
 
-	response, current_id, value = 1, 1, 1 #getLocation(mystr, current_id, dataset)	
+	response, current_id, value = getLocation(mystr, current_id, dataset)	
 	response_data = response
 	print("message decoded : " + str(value))
 	return JsonResponse({'संदेश': response_data}, status=200)

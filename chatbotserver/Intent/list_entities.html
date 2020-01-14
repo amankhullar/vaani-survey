@@ -1,0 +1,27 @@
+
+{% block content %}
+<h1> Intents List</h1>
+<a href="{% url 'add' %}">Add more</a>
+{% if intent_model_list %}
+<ul>
+    {% for myintent in intent_model_list %}
+    <li>
+        <h3>{{myintent.intent_data}}</h3>
+        <p>
+           Training Phrases : 
+          <ul>
+          {% for entity in myintent.training_phrases %}
+          <li>{{entity}}</li>
+          {% endfor %}
+         </ul>
+        </p>
+        <p>
+           Response : {{myintent.responses}}
+        </p>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+ <p>There are no intents in the Model.</p>
+{% endif %}
+{% endblock %}

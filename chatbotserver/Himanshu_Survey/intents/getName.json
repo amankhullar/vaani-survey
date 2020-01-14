@@ -1,0 +1,55 @@
+{
+  "id": "9a8f5f62-7c75-431a-827f-75da7602abfe",
+  "parentId": "ff47d256-b4ff-406c-b7cc-7d3c8c54e2c5",
+  "rootParentId": "ff47d256-b4ff-406c-b7cc-7d3c8c54e2c5",
+  "name": "getName",
+  "auto": true,
+  "contexts": [
+    "Hello-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hello.Hello-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d9976bbd-208e-4339-9602-c65d4e898199",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please say your name again"
+            },
+            {
+              "lang": "en",
+              "value": "Please say your name clearly"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks. See you soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

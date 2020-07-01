@@ -107,7 +107,7 @@ def establish_connection(request):
 	global current_id
 	dataset, current_id, followupQuestion = createDataset(survey_name)
 	response_data = followupQuestion
-	# print(response_data)
+	print(response_data)
 	return JsonResponse({'message': response_data}, status=200)
 
 def new_intent(request):

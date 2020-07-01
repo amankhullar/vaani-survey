@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1de8ff3d-2d59-4b66-b929-12a52b1c1320",
+    "data": [
+      {
+        "text": "Location",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6f56f29-3208-4920-9935-b4a186cf094f",
+    "data": [
+      {
+        "text": "मै ",
+        "userDefined": false
+      },
+      {
+        "text": "Location",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " में रहता हूँ।",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

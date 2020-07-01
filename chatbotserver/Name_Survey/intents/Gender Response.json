@@ -1,0 +1,55 @@
+{
+  "id": "77e414ae-f2ad-409a-b8f2-9cfe85f9d6fd",
+  "parentId": "aed1f793-17d4-4509-8426-e1addc28c51d",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Gender Response",
+  "auto": true,
+  "contexts": [
+    "AgeResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-custom.AgeResponse-custom",
+      "affectedContexts": [
+        {
+          "name": "GenderResponse-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0b36b87d-4060-4d63-9604-ae329acfb870",
+          "required": false,
+          "dataType": "@Gender",
+          "name": "Gender",
+          "value": "$Gender",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "क्या आप १२वी पास हो।"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

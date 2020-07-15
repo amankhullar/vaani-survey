@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Gender-male",
+    "synonyms": [
+      "Gender-male",
+      "पुरुष",
+      "मेल",
+      "नर",
+      "मर्द"
+    ]
+  },
+  {
+    "value": "Gender-female",
+    "synonyms": [
+      "Gender-female",
+      "महिला",
+      "मादा",
+      "औरत",
+      "स्त्री",
+      "नारी"
+    ]
+  }
+]

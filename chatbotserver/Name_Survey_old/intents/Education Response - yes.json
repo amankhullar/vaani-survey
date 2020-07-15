@@ -1,0 +1,36 @@
+{
+  "id": "f4144e2e-0bed-4190-9f53-bfdfdae75bce",
+  "parentId": "77e414ae-f2ad-409a-b8f2-9cfe85f9d6fd",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Education Response - yes",
+  "auto": true,
+  "contexts": [
+    "GenderResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-custom.AgeResponse-custom.GenderResponse-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "धन्यवाद्"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

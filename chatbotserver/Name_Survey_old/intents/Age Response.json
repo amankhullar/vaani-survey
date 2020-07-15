@@ -1,0 +1,55 @@
+{
+  "id": "aed1f793-17d4-4509-8426-e1addc28c51d",
+  "parentId": "02bf63a1-a392-4903-b38f-90061d236fb8",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Age Response",
+  "auto": true,
+  "contexts": [
+    "LocationResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-custom",
+      "affectedContexts": [
+        {
+          "name": "AgeResponse-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0f7e07c-cbde-429e-9978-04b4d6fc1224",
+          "required": false,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "क्या मै आपका लिंग जान सकता हूँ"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

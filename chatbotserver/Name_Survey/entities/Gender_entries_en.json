@@ -1,8 +1,7 @@
 [
   {
-    "value": "Gender-male",
+    "value": "पुरुष",
     "synonyms": [
-      "Gender-male",
       "पुरुष",
       "मेल",
       "नर",
@@ -10,9 +9,8 @@
     ]
   },
   {
-    "value": "Gender-female",
+    "value": "महिला",
     "synonyms": [
-      "Gender-female",
       "महिला",
       "मादा",
       "औरत",

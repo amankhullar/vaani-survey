@@ -1,0 +1,36 @@
+{
+  "id": "32db3693-06ac-42bf-90b3-8189396253c0",
+  "parentId": "02bf63a1-a392-4903-b38f-90061d236fb8",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Location Response - fallback",
+  "auto": false,
+  "contexts": [
+    "LocationResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "कृपया वापस बताइये कि आप कहाँ रहते हो।"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

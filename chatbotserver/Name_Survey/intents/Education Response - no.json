@@ -11,8 +11,27 @@
     {
       "resetContexts": false,
       "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-custom.AgeResponse-custom.GenderResponse-no",
-      "affectedContexts": [],
-      "parameters": [],
+      "affectedContexts": [
+        {
+          "name": "EducationResponse-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6309b4aa-c199-4fad-9286-62fae472874e",
+          "required": false,
+          "dataType": "@Nhi",
+          "name": "Nhi1",
+          "value": "$Nhi1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,

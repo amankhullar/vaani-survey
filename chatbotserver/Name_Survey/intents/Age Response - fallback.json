@@ -1,0 +1,36 @@
+{
+  "id": "102f5db1-9834-4623-8c1a-b8c460b37cc6",
+  "parentId": "aed1f793-17d4-4509-8426-e1addc28c51d",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Age Response - fallback",
+  "auto": false,
+  "contexts": [
+    "AgeResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-custom.LocationResponse-custom.AgeResponse-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "कृपया वापस अपनी जनम तिथि बताइये |"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

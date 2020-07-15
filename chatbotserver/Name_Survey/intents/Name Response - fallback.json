@@ -1,0 +1,36 @@
+{
+  "id": "26c21504-fdd2-4553-8ee6-419c2ac07cb8",
+  "parentId": "e9762d83-1733-4b6a-b71b-3fd0aaff7556",
+  "rootParentId": "4d765651-462b-4cbe-a28f-d6cb385f4536",
+  "name": "Name Response - fallback",
+  "auto": false,
+  "contexts": [
+    "NameResponse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.NameResponse-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "कृपया वापस बताइये कि अपना नाम बताएं |"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

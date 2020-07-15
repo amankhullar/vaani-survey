@@ -1,16 +1,6 @@
 from Intent import views
 from django.conf.urls import url
-from Intent.views import (
-    intent_view,
-    BookListView,
-    list_intents,
-    new_intent,
-    entity_view,
-    HelloWorld,
-    intent_get,
-    establish_connection,
-    get_location
-    )
+from Intent.views import BookListView, HelloWorld, entity_view, establish_connection, get_answer, intent_get, intent_view, list_intents, new_intent
 
 urlpatterns = [
     url(r'^edit_intent/$', intent_view.as_view()),
@@ -21,7 +11,8 @@ urlpatterns = [
     url(r'^(?P<id>[\w-]+)/edit/$', HelloWorld.as_view()),
     url(r'get/', intent_get),
     url(r'conn/', establish_connection),
-    url(r'getlocation/', get_location)
+    url(r'getanswer/', get_answer)
+
 ]
 
 
